@@ -5,7 +5,7 @@ function retrieveLeaderBoard() {
       let leaderboard_list = JSON.parse(this.responseText);
       let leaderboard = document.getElementById("leaderboard");
 
-      let user_entry = document.createElement("h2");
+      let user_entry = document.createElement("h3");
       user_entry.id = "user-review";
       user_entry.innerHTML =
         "<b>Name: </b>" +
