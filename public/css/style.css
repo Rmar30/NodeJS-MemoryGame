@@ -1,0 +1,111 @@
+body {
+  background-color: lightblue;
+}
+
+#content-view {
+  /* background-color: pink; */
+}
+
+#game-title {
+  float: left;
+}
+
+#header-progress-tracker {
+  float: right;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #261c19;
+  opacity: 0.85;
+  margin: 2% 0;
+}
+
+#header-tiles,
+#header-lives,
+#header-trials,
+#header-score {
+  display: inline-block;
+  background-color: #7f7370;
+  padding: 4px 4px;
+}
+
+#matrix-view {
+  text-align: center;
+  clear: both;
+  margin-top: 5%;
+}
+
+#matrix {
+  background-color: #60423a;
+  font-size: 5vw;
+  border-collapse: collapse;
+  margin: auto;
+  color: white;
+  table-layout: fixed;
+  width: 80%;
+}
+
+#matrix td {
+  border: 10px solid #261c19;
+  width: 10%;
+}
+
+.hide-td {
+  visibility: hidden;
+}
+
+.tile-selected-correct {
+  background-color: #1091a2;
+}
+
+.tile-final-correct {
+  background-color: #5bb933;
+}
+
+.tile-wrong {
+  background-color: #ff6602;
+}
+
+#game-control-group {
+  margin-top: 3%;
+  text-align: center;
+}
+
+#summary,
+#leaderboard {
+  background-color: #9a6c66;
+  border: 10px solid #261c19;
+  clear: both;
+  margin-top: 20%;
+  padding: 5%;
+  display: none;
+  width: 100%;
+}
+
+#leaderboard-table tr {
+  border: 3px solid #261c19;
+}
+
+#leaderboard-table td {
+  width: 10%;
+}
+
+#user-review {
+  color: darkred;
+}
+
+#user-score {
+  margin-left: 3.5%;
+}
+
+.board-rotate {
+  transition: transform 2s;
+  transform: rotate(90deg);
+}
+.text-rotate {
+  transition: transform 2s;
+  transform: rotate(-90deg);
+}
+
+.text-rotate-fixed {
+  transform: rotate(-90deg);
+}

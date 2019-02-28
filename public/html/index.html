@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Memory Game" />
+    <meta name="keywords" content="memory, game, memory game" />
+    <meta name="author" content="Ryan Mar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- CUSTOM CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+    <!-- CUSTOM JavaScript -->
+    <script src="../scripts/global.js"></script>
+    <script src="../scripts/strings.js"></script>
+    <script src="../scripts/ajax.js"></script>
+    <script src="../scripts/game-helper-functions.js"></script>
+    <script src="../scripts/game.js"></script>
+  </head>
+  <body>
+    <div id="content-view" class="container">
+      <div id="header-progress-tracker">
+        <div id="header-tiles">TILES 0</div>
+        <div id="header-lives">LIVES 0</div>
+        <div id="header-trials">TRIALS &infin;</div>
+        <div id="header-score">SCORE 0</div>
+      </div>
+      <div id="summary"></div>
+      <div id="leaderboard"></div>
+      <div id="matrix-view">
+        <table id="matrix"></table>
+      </div>
+      <div id="game-control-group">
+        <button
+          id="btn-start"
+          class="btn btn-success btn-lg"
+          onclick="startGame()"
+        >
+          START
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
