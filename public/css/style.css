@@ -1,5 +1,6 @@
 body {
-  background-color: lightblue;
+  /* background-color: lightblue; */
+   background-image: url("../assets//bg-image.png");
 }
 
 #content-view {
@@ -41,7 +42,7 @@ body {
   margin: auto;
   color: white;
   table-layout: fixed;
-  width: 80%;
+  width: 40%;
 }
 
 #matrix td {
