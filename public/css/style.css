@@ -25,14 +25,14 @@ body {
 #header-trials,
 #header-score {
   display: inline-block;
-  background-color: #7f7370;
+  /* background-color: #7f7370; */
+  background-color: white;
   padding: 4px 4px;
 }
 
 #matrix-view {
   text-align: center;
   clear: both;
-  margin-top: 5%;
 }
 
 #matrix {
@@ -76,7 +76,7 @@ body {
   background-color: #9a6c66;
   border: 10px solid #261c19;
   clear: both;
-  margin-top: 20%;
+  margin-top: 3%;
   padding: 5%;
   display: none;
   width: 100%;
@@ -84,14 +84,15 @@ body {
 
 #leaderboard-table tr {
   border: 3px solid #261c19;
+  background-color:wheat;
 }
 
 #leaderboard-table td {
   width: 10%;
 }
 
-#user-review {
-  color: darkred;
+#user-review, #leaderboard h1 , #summary {
+  color: #261c19;
 }
 
 #user-score {
